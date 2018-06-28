@@ -1059,8 +1059,6 @@ F 12 "Fitted" H 10225 2450 60  0001 L CNN "Assembly Option"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9850 1400 9850 1450
-Wire Wire Line
 	8750 1950 9850 1950
 Connection ~ 8750 1950
 Wire Wire Line
@@ -1505,10 +1503,9 @@ Wire Wire Line
 Connection ~ 6500 4050
 Wire Wire Line
 	9500 1100 9850 1100
-Connection ~ 9850 1450
-Wire Wire Line
-	9850 1450 9850 1950
 Connection ~ 9850 1100
 Wire Wire Line
 	9850 1100 10050 1100
+Wire Wire Line
+	9850 1400 9850 1950
 $EndSCHEMATC
