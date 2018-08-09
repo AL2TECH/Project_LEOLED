@@ -1,0 +1,28 @@
+Drill report for C:\github_repo\Project_LEOLED\PCB\Rev_1\LEOLED_rev1.kicad_pcb
+Created on 8/9/2018 4:19:21 PM
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  B.Cu                      back
+
+
+Drill file 'LEOLED_rev1.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.20mm  0.008"  (3 holes)
+    T2  0.50mm  0.020"  (63 holes)
+    T3  0.60mm  0.024"  (2 holes)  (with 2 slots)
+    T4  0.85mm  0.033"  (2 holes)
+    T5  1.00mm  0.039"  (4 holes)
+    T6  1.10mm  0.043"  (10 holes)
+    T7  2.20mm  0.087"  (5 holes)
+
+    Total plated holes count 89
+
+
+Not plated through holes are merged with plated holes
+    unplated through holes:
+    =============================================================
+
+    Total unplated holes count 0

@@ -234,4 +234,153 @@ Wire Wire Line
 Connection ~ 6850 5500
 Wire Wire Line
 	6850 5500 7100 5500
+$Comp
+L power:GND #PWR038
+U 1 1 5B6C6296
+P 600 6300
+F 0 "#PWR038" H 600 6050 50  0001 C CNN
+F 1 "GND" H 600 6150 50  0000 C CNN
+F 2 "" H 600 6300 50  0001 C CNN
+F 3 "" H 600 6300 50  0001 C CNN
+	1    600  6300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	750  6600 750  6700
+Wire Wire Line
+	750  6700 600  6700
+Wire Wire Line
+	600  6200 750  6200
+Wire Wire Line
+	600  6200 600  5800
+Wire Wire Line
+	600  5800 750  5800
+Wire Wire Line
+	750  5450 600  5450
+Wire Wire Line
+	600  5450 600  5800
+Connection ~ 600  5800
+$Comp
+L LEOLED_rev1-rescue:MountigHole_M2-Mechanical M1
+U 1 1 5B6C90B9
+P 750 5350
+F 0 "M1" H 850 5401 50  0000 L CNN
+F 1 "MountigHole_M2" H 850 5310 50  0000 L CNN
+F 2 "Mechanical:MountingHole_2.2mm_M2_ISO7380_Pad" H 775 5550 60  0001 L CNN
+F 3 "NA" H 775 5650 60  0001 L CNN
+F 4 "NA" H 775 5750 60  0001 L CNN "Rating"
+F 5 "NA" H 775 5850 60  0001 L CNN "Tolerance"
+F 6 "NA" H 775 5950 60  0001 L CNN "Manufacturer"
+F 7 "NA" H 775 6050 60  0001 L CNN "Manufacturer PN"
+F 8 "" H 775 6150 60  0001 L CNN "Supplier"
+F 9 "NA" H 775 6250 60  0001 L CNN "Supplier PN"
+F 10 "NA" H 775 6350 60  0001 L CNN "Supplier Link"
+F 11 "NA" H 775 6450 60  0001 L CNN "Description"
+F 12 "Not Fitted" H 775 6550 60  0001 L CNN "Assembly Option"
+	1    750  5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEOLED_rev1-rescue:MountigHole_M2-Mechanical M2
+U 1 1 5B6C9153
+P 750 5700
+F 0 "M2" H 850 5751 50  0000 L CNN
+F 1 "MountigHole_M2" H 850 5660 50  0000 L CNN
+F 2 "Mechanical:MountingHole_2.2mm_M2_ISO7380_Pad" H 775 5900 60  0001 L CNN
+F 3 "NA" H 775 6000 60  0001 L CNN
+F 4 "NA" H 775 6100 60  0001 L CNN "Rating"
+F 5 "NA" H 775 6200 60  0001 L CNN "Tolerance"
+F 6 "NA" H 775 6300 60  0001 L CNN "Manufacturer"
+F 7 "NA" H 775 6400 60  0001 L CNN "Manufacturer PN"
+F 8 "" H 775 6500 60  0001 L CNN "Supplier"
+F 9 "NA" H 775 6600 60  0001 L CNN "Supplier PN"
+F 10 "NA" H 775 6700 60  0001 L CNN "Supplier Link"
+F 11 "NA" H 775 6800 60  0001 L CNN "Description"
+F 12 "Not Fitted" H 775 6900 60  0001 L CNN "Assembly Option"
+	1    750  5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEOLED_rev1-rescue:MountigHole_M2-Mechanical M3
+U 1 1 5B6C918D
+P 750 6100
+F 0 "M3" H 850 6151 50  0000 L CNN
+F 1 "MountigHole_M2" H 850 6060 50  0000 L CNN
+F 2 "Mechanical:MountingHole_2.2mm_M2_ISO7380_Pad" H 775 6300 60  0001 L CNN
+F 3 "NA" H 775 6400 60  0001 L CNN
+F 4 "NA" H 775 6500 60  0001 L CNN "Rating"
+F 5 "NA" H 775 6600 60  0001 L CNN "Tolerance"
+F 6 "NA" H 775 6700 60  0001 L CNN "Manufacturer"
+F 7 "NA" H 775 6800 60  0001 L CNN "Manufacturer PN"
+F 8 "" H 775 6900 60  0001 L CNN "Supplier"
+F 9 "NA" H 775 7000 60  0001 L CNN "Supplier PN"
+F 10 "NA" H 775 7100 60  0001 L CNN "Supplier Link"
+F 11 "NA" H 775 7200 60  0001 L CNN "Description"
+F 12 "Not Fitted" H 775 7300 60  0001 L CNN "Assembly Option"
+	1    750  6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEOLED_rev1-rescue:MountigHole_M2-Mechanical M4
+U 1 1 5B6C91C7
+P 750 6500
+F 0 "M4" H 850 6551 50  0000 L CNN
+F 1 "MountigHole_M2" H 850 6460 50  0000 L CNN
+F 2 "Mechanical:MountingHole_2.2mm_M2_ISO7380_Pad" H 775 6700 60  0001 L CNN
+F 3 "NA" H 775 6800 60  0001 L CNN
+F 4 "NA" H 775 6900 60  0001 L CNN "Rating"
+F 5 "NA" H 775 7000 60  0001 L CNN "Tolerance"
+F 6 "NA" H 775 7100 60  0001 L CNN "Manufacturer"
+F 7 "NA" H 775 7200 60  0001 L CNN "Manufacturer PN"
+F 8 "" H 775 7300 60  0001 L CNN "Supplier"
+F 9 "NA" H 775 7400 60  0001 L CNN "Supplier PN"
+F 10 "NA" H 775 7500 60  0001 L CNN "Supplier Link"
+F 11 "NA" H 775 7600 60  0001 L CNN "Description"
+F 12 "Not Fitted" H 775 7700 60  0001 L CNN "Assembly Option"
+	1    750  6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEOLED_rev1-rescue:MountigHole_M2-Mechanical M5
+U 1 1 5B6C9DFF
+P 750 7050
+F 0 "M5" H 850 7101 50  0000 L CNN
+F 1 "MountigHole_M2" H 850 7010 50  0000 L CNN
+F 2 "Mechanical:MountingHole_2.2mm_M2_ISO7380_Pad" H 775 7250 60  0001 L CNN
+F 3 "NA" H 775 7350 60  0001 L CNN
+F 4 "NA" H 775 7450 60  0001 L CNN "Rating"
+F 5 "NA" H 775 7550 60  0001 L CNN "Tolerance"
+F 6 "NA" H 775 7650 60  0001 L CNN "Manufacturer"
+F 7 "NA" H 775 7750 60  0001 L CNN "Manufacturer PN"
+F 8 "" H 775 7850 60  0001 L CNN "Supplier"
+F 9 "NA" H 775 7950 60  0001 L CNN "Supplier PN"
+F 10 "NA" H 775 8050 60  0001 L CNN "Supplier Link"
+F 11 "NA" H 775 8150 60  0001 L CNN "Description"
+F 12 "Not Fitted" H 775 8250 60  0001 L CNN "Assembly Option"
+	1    750  7050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	600  6700 600  7250
+Wire Wire Line
+	750  7150 750  7250
+Wire Wire Line
+	750  7250 600  7250
+Connection ~ 600  7250
+Wire Wire Line
+	600  6200 600  6300
+Connection ~ 600  6200
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 5B6CE3DA
+P 600 7400
+F 0 "#PWR?" H 600 7200 50  0001 C CNN
+F 1 "GNDPWR" H 650 7250 50  0000 C CNN
+F 2 "" H 600 7350 50  0001 C CNN
+F 3 "" H 600 7350 50  0001 C CNN
+	1    600  7400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	600  7250 600  7400
 $EndSCHEMATC

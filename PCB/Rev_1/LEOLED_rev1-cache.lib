@@ -1,43 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Battery_Charger:BQ24210
+# Ceramic_Capacitor_SMD_100V_0.1uF
 #
-DEF Battery_Charger:BQ24210 U 0 40 Y Y 1 F N
-F0 "U" -450 500 60 H V C CNN
-F1 "Battery_Charger:BQ24210" -300 400 60 H V C CNN
-F2 "WSON:WSON-10-1EP_2x3mm_Pitch0.5mm_ThermalVias" 25 200 60 H I L CNN
-F3 "http://www.ti.com/lit/ds/symlink/bq24210.pdf" 25 300 60 H I L CNN
-F4 "7V" 25 400 60 H I L CNN "Rating"
-F5 "NA" 25 500 60 H I L CNN "Tolerance"
-F6 "Texas Instrument" 25 600 60 H I L CNN "Manufacturer"
-F7 "BQ24210DQCT" 25 700 60 H I L CNN "Manufacturer PN"
-F8 "Digy-Key" 25 800 60 H I L CNN "Supplier"
-F9 "296-28738-1-ND" 25 900 60 H I L CNN "Supplier PN"
-F10 "https://www.digikey.com/product-detail/en/texas-instruments/BQ24210DQCT/296-28738-1-ND/2657679" 25 1000 60 H I L CNN "Supplier Link"
-F11 "Charger IC Lithium-Ion 10-WSON (3x2)" 25 1100 60 H I L CNN "Description"
-F12 "Fitted" 25 1200 60 H I L CNN "Assembly Option"
-DRAW
-S -500 300 200 -650 0 1 0 f
-X VBUS 1 -700 250 200 R 50 50 1 1 I
-X BAT 10 400 250 200 L 50 50 1 1 B
-X GND-PAD 11 -50 -850 200 U 50 50 1 1 I
-X ISET 2 -250 -850 200 U 50 50 1 1 I
-X VSS 3 -150 -850 200 U 50 50 1 1 I
-X VTSB 4 400 -150 200 L 50 50 1 1 I
-X TS 5 400 -500 200 L 50 50 1 1 I
-X ~PG 6 400 -50 200 L 50 50 1 1 I
-X ~EN 7 -700 -100 200 R 50 50 1 1 I
-X ~CHG 8 400 50 200 L 50 50 1 1 I
-X VDPM 9 -350 -850 200 U 50 50 1 1 I
-ENDDRAW
-ENDDEF
-#
-# Ceramic_Capacitor_SMD_100V:0.1uF
-#
-DEF Ceramic_Capacitor_SMD_100V:0.1uF R 0 10 N Y 1 F N
+DEF Ceramic_Capacitor_SMD_100V_0.1uF R 0 10 N Y 1 F N
 F0 "R" 25 100 50 H V L CNN
-F1 "Ceramic_Capacitor_SMD_100V:0.1uF" 25 -100 50 H V L CNN
+F1 "Ceramic_Capacitor_SMD_100V_0.1uF" 25 -100 50 H V L CNN
 F2 "Ceramic_Capacitor_SMD:C_0805_2012Metric" 25 200 60 H I L CNN
 F3 "http://psearch.en.murata.com/capacitor/product/GCM21BR72A104KA37%23.pdf" 25 300 60 H I L CNN
 F4 "100V" 25 400 60 H I L CNN "Rating"
@@ -57,11 +25,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Ceramic_Capacitor_SMD_16V:0.1uF
+# Ceramic_Capacitor_SMD_16V_0.1uF
 #
-DEF Ceramic_Capacitor_SMD_16V:0.1uF C 0 10 N Y 1 F N
+DEF Ceramic_Capacitor_SMD_16V_0.1uF C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "Ceramic_Capacitor_SMD_16V:0.1uF" 25 -100 50 H V L CNN
+F1 "Ceramic_Capacitor_SMD_16V_0.1uF" 25 -100 50 H V L CNN
 F2 "Ceramic_Capacitor_SMD:C_0603_1608Metric" 25 200 60 H I L CNN
 F3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C104KA01-01.pdf" 25 300 60 H I L CNN
 F4 "16V" 25 400 60 H I L CNN "Rating"
@@ -81,11 +49,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Ceramic_Capacitor_SMD_16V:10uF
+# Ceramic_Capacitor_SMD_16V_10uF
 #
-DEF Ceramic_Capacitor_SMD_16V:10uF C 0 10 N Y 1 F N
+DEF Ceramic_Capacitor_SMD_16V_10uF C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "Ceramic_Capacitor_SMD_16V:10uF" 25 -100 50 H V L CNN
+F1 "Ceramic_Capacitor_SMD_16V_10uF" 25 -100 50 H V L CNN
 F2 "Ceramic_Capacitor_SMD:C_1206_3216Metric" 25 200 60 H I L CNN
 F3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL31B106KOHZW6E.jsp" 25 300 60 H I L CNN
 F4 "16V" 25 400 60 H I L CNN "Rating"
@@ -105,11 +73,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Ceramic_Capacitor_SMD_16V:1uF
+# Ceramic_Capacitor_SMD_16V_1uF
 #
-DEF Ceramic_Capacitor_SMD_16V:1uF C 0 10 N Y 1 F N
+DEF Ceramic_Capacitor_SMD_16V_1uF C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "Ceramic_Capacitor_SMD_16V:1uF" 25 -100 50 H V L CNN
+F1 "Ceramic_Capacitor_SMD_16V_1uF" 25 -100 50 H V L CNN
 F2 "Ceramic_Capacitor_SMD:C_0603_1608Metric" 25 200 60 H I L CNN
 F3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C105MA12-01.pdf" 25 300 60 H I L CNN
 F4 "16V" 25 400 60 H I L CNN "Rating"
@@ -129,11 +97,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Ceramic_Capacitor_SMD_16V:4.7uF
+# Ceramic_Capacitor_SMD_16V_4.7uF
 #
-DEF Ceramic_Capacitor_SMD_16V:4.7uF C 0 10 N Y 1 F N
+DEF Ceramic_Capacitor_SMD_16V_4.7uF C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "Ceramic_Capacitor_SMD_16V:4.7uF" 25 -100 50 H V L CNN
+F1 "Ceramic_Capacitor_SMD_16V_4.7uF" 25 -100 50 H V L CNN
 F2 "Ceramic_Capacitor_SMD:C_0603_1608Metric" 25 200 60 H I L CNN
 F3 "http://www.samsungsem.com/kr/front/downloadcms.do?path=/kr/support/product-search/mlcc/__icsFiles/afieldfile/2014/11/05&fileName=C_CL10A475KO8NNNC.pdf" 25 300 60 H I L CNN
 F4 "16V" 25 400 60 H I L CNN "Rating"
@@ -153,11 +121,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Ceramic_Capacitor_SMD_50V:4.7uF
+# Ceramic_Capacitor_SMD_50V_4.7uF
 #
-DEF Ceramic_Capacitor_SMD_50V:4.7uF C 0 10 N Y 1 F N
+DEF Ceramic_Capacitor_SMD_50V_4.7uF C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "Ceramic_Capacitor_SMD_50V:4.7uF" 25 -100 50 H V L CNN
+F1 "Ceramic_Capacitor_SMD_50V_4.7uF" 25 -100 50 H V L CNN
 F2 "Ceramic_Capacitor_SMD:C_1206_3216Metric" 25 200 60 H I L CNN
 F3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL31A475KB9LNNC.jsp" 25 300 60 H I L CNN
 F4 "50V" 25 400 60 H I L CNN "Rating"
@@ -177,11 +145,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Ceramic_Capacitor_SMD_50V:6pF
+# Ceramic_Capacitor_SMD_50V_6pF
 #
-DEF Ceramic_Capacitor_SMD_50V:6pF C 0 10 N Y 1 F N
+DEF Ceramic_Capacitor_SMD_50V_6pF C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "Ceramic_Capacitor_SMD_50V:6pF" 25 -100 50 H V L CNN
+F1 "Ceramic_Capacitor_SMD_50V_6pF" 25 -100 50 H V L CNN
 F2 "Ceramic_Capacitor_SMD:C_0402_1005Metric" 25 200 60 H I L CNN
 F3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM1555C1H6R0DA01-01.pdf" 25 300 60 H I L CNN
 F4 "50V" 25 400 60 H I L CNN "Rating"
@@ -201,11 +169,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Connector_Pin_Header:FTSH-105-01-F-DV-K
+# Connector_Pin_Header_FTSH-105-01-F-DV-K
 #
-DEF Connector_Pin_Header:FTSH-105-01-F-DV-K J 0 40 Y Y 1 F N
+DEF Connector_Pin_Header_FTSH-105-01-F-DV-K J 0 40 Y Y 1 F N
 F0 "J" -100 650 50 H V R CNN
-F1 "Connector_Pin_Header:FTSH-105-01-F-DV-K" -100 550 50 H V R BNN
+F1 "Connector_Pin_Header_FTSH-105-01-F-DV-K" -100 550 50 H V R BNN
 F2 "Connector_Pin_Header:Pin_Header_Straight_2x05_Pitch1.27mm_SMD" 25 200 60 H I L CNN
 F3 "http://suddendocs.samtec.com/prints/ftsh-1xx-xx-xxx-dv-xxx-xxx-mkt.pdf" 25 300 60 H I L CNN
 F4 "NA" 25 400 60 H I L CNN "Rating"
@@ -240,11 +208,11 @@ X GNDDetect 9 -100 -600 100 U 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# Connector_Pin_Header:WURTH_61300411121
+# Connector_Pin_Header_WURTH_61300411121
 #
-DEF Connector_Pin_Header:WURTH_61300411121 J 0 40 Y N 1 F N
+DEF Connector_Pin_Header_WURTH_61300411121 J 0 40 Y N 1 F N
 F0 "J" 0 200 50 H V C CNN
-F1 "Connector_Pin_Header:WURTH_61300411121" 0 -300 50 H V C CNN
+F1 "Connector_Pin_Header_WURTH_61300411121" 0 -300 50 H V C CNN
 F2 "Connector_Pin_Header:Pin_Header_Straight_1x04_Pitch2.54mm" 25 200 60 H I L CNN
 F3 "http://katalog.we-online.de/em/datasheet/6130xx11121.pdf" 25 300 60 H I L CNN
 F4 "NA" 25 400 60 H I L CNN "Rating"
@@ -269,11 +237,11 @@ X Pin_4 4 -200 -200 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Connector_Terminal_Blocks:PHEONIX_MPT_1725698
+# Connector_Terminal_Blocks_PHEONIX_MPT_1725698
 #
-DEF Connector_Terminal_Blocks:PHEONIX_MPT_1725698 J 0 40 Y N 1 F N
+DEF Connector_Terminal_Blocks_PHEONIX_MPT_1725698 J 0 40 Y N 1 F N
 F0 "J" 0 300 50 H V C CNN
-F1 "Connector_Terminal_Blocks:PHEONIX_MPT_1725698" 0 -400 50 H V C CNN
+F1 "Connector_Terminal_Blocks_PHEONIX_MPT_1725698" 0 -400 50 H V C CNN
 F2 "Connector_Terminal_Blocks:TerminalBlock_Pheonix_MPT-2.54mm_6pol" 25 200 60 H I L CNN
 F3 "https://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1725698.pdf" 25 300 60 H I L CNN
 F4 "125V, 6A" 25 400 60 H I L CNN "Rating"
@@ -302,11 +270,11 @@ X Pin_6 6 -200 -300 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Connector_Terminal_Blocks:PHOENIX_MPT_1725656
+# Connector_Terminal_Blocks_PHOENIX_MPT_1725656
 #
-DEF Connector_Terminal_Blocks:PHOENIX_MPT_1725656 J 0 40 Y N 1 F N
+DEF Connector_Terminal_Blocks_PHOENIX_MPT_1725656 J 0 40 Y N 1 F N
 F0 "J" 0 100 50 H V C CNN
-F1 "Connector_Terminal_Blocks:PHOENIX_MPT_1725656" 0 -200 50 H V C CNN
+F1 "Connector_Terminal_Blocks_PHOENIX_MPT_1725656" 0 -200 50 H V C CNN
 F2 "Connector_Terminal_Blocks:TerminalBlock_Pheonix_MPT-2.54mm_2pol" 25 200 60 H I L CNN
 F3 "https://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1725656.pdf" 25 300 60 H I L CNN
 F4 "6A, 125V" 25 400 60 H I L CNN "Rating"
@@ -327,11 +295,11 @@ X Pin_2 2 -200 -100 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Crystal:ABS07-32.768KHZ
+# Crystal_ABS07-32.768KHZ
 #
-DEF Crystal:ABS07-32.768KHZ XTAL 0 40 N N 1 F N
+DEF Crystal_ABS07-32.768KHZ XTAL 0 40 N N 1 F N
 F0 "XTAL" 0 150 50 H V C CNN
-F1 "Crystal:ABS07-32.768KHZ" 0 -150 50 H V C CNN
+F1 "Crystal_ABS07-32.768KHZ" 0 -150 50 H V C CNN
 F2 "Crystal:ABS07-32.768KHZ-7-T" 25 200 60 H I L CNN
 F3 "http://www.abracon.com/Resonators/ABS07.pdf" 25 300 60 H I L CNN
 F4 "NA" 25 400 60 H I L CNN "Rating"
@@ -354,11 +322,11 @@ X 2 2 150 0 50 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Diode_SMD:MBR0580S1-7
+# Diode_SMD_MBR0580S1-7
 #
-DEF Diode_SMD:MBR0580S1-7 D 0 40 N N 1 F N
+DEF Diode_SMD_MBR0580S1-7 D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "Diode_SMD:MBR0580S1-7" 0 -100 50 H V C CNN
+F1 "Diode_SMD_MBR0580S1-7" 0 -100 50 H V C CNN
 F2 "Diode_SMD:D_SOD-123" 25 200 60 H I L CNN
 F3 "https://media.digikey.com/pdf/Data%20Sheets/Diodes%20PDFs/MBR0580S1_R5.pdf" 25 300 60 H I L CNN
 F4 "500mA, 80V" 25 400 60 H I L CNN "Rating"
@@ -379,11 +347,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Diode_SMD:MBR120VLSFT1G
+# Diode_SMD_MBR120VLSFT1G
 #
-DEF Diode_SMD:MBR120VLSFT1G D 0 40 N N 1 F N
+DEF Diode_SMD_MBR120VLSFT1G D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "Diode_SMD:MBR120VLSFT1G" 0 -100 50 H V C CNN
+F1 "Diode_SMD_MBR120VLSFT1G" 0 -100 50 H V C CNN
 F2 "Diode_SMD:D_SOD-123FL" 25 200 60 H I L CNN
 F3 "http://www.onsemi.com/pub/Collateral/MBR120VLSFT1-D.PDF" 25 300 60 H I L CNN
 F4 "20V, 1A" 25 400 60 H I L CNN "Rating"
@@ -404,11 +372,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Inductor_SMD:10uH_2.4A
+# Inductor_SMD_10uH_2.4A
 #
-DEF Inductor_SMD:10uH_2.4A L 0 40 N N 1 F N
+DEF Inductor_SMD_10uH_2.4A L 0 40 N N 1 F N
 F0 "L" -50 0 50 V V C CNN
-F1 "Inductor_SMD:10uH_2.4A" 75 0 50 V V C CNN
+F1 "Inductor_SMD_10uH_2.4A" 75 0 50 V V C CNN
 F2 "Inductor_SMD:L_Wurth_5030" 25 200 60 H I L CNN
 F3 "http://katalog.we-online.de/pbs/datasheet/74437336100.pdf" 25 300 60 H I L CNN
 F4 "2.4A" 25 400 60 H I L CNN "Rating"
@@ -430,11 +398,11 @@ X 2 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# LDO_Regulator:MAX1725
+# LDO_Regulator_MAX1725
 #
-DEF LDO_Regulator:MAX1725 U 0 40 Y Y 1 F N
+DEF LDO_Regulator_MAX1725 U 0 40 Y Y 1 F N
 F0 "U" -350 350 60 H V C CNN
-F1 "LDO_Regulator:MAX1725" -200 450 60 H V C CNN
+F1 "LDO_Regulator_MAX1725" -200 450 60 H V C CNN
 F2 "SOT:SOT-23-5" 25 200 60 H I L CNN
 F3 "https://datasheets.maximintegrated.com/en/ds/MAX1725-MAX1726.pdf" 25 300 60 H I L CNN
 F4 "12V" 25 400 60 H I L CNN "Rating"
@@ -456,11 +424,11 @@ X ~SHDN 5 -600 0 200 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# LED_SMD:LTST-C191KGKT
+# LED_SMD_LTST-C191KGKT
 #
-DEF LED_SMD:LTST-C191KGKT D 0 40 Y N 1 F N
+DEF LED_SMD_LTST-C191KGKT D 0 40 Y N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "LED_SMD:LTST-C191KGKT" 0 -100 50 H V C CNN
+F1 "LED_SMD_LTST-C191KGKT" 0 -100 50 H V C CNN
 F2 "LED_SMD:LED_0603_1608Metric" 25 200 60 H I L CNN
 F3 "http://optoelectronics.liteon.com/upload/download/DS22-2000-228/LTST-C191KGKT.PDF" 25 300 60 H I L CNN
 F4 "20mA" 25 400 60 H I L CNN "Rating"
@@ -483,11 +451,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# LED_SMD:MLCAWT-A1-0000-000051
+# LED_SMD_MLCAWT-A1-0000-000051
 #
-DEF LED_SMD:MLCAWT-A1-0000-000051 D 0 40 Y N 1 F N
+DEF LED_SMD_MLCAWT-A1-0000-000051 D 0 40 Y N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "LED_SMD:MLCAWT-A1-0000-000051" 0 -100 50 H V C CNN
+F1 "LED_SMD_MLCAWT-A1-0000-000051" 0 -100 50 H V C CNN
 F2 "LED_SMD:Cree_MLC" 25 200 60 H I L CNN
 F3 "https://www.mouser.it/datasheet/2/90/XLampMLC-19165.pdf" 25 300 60 H I L CNN
 F4 "300mW" 25 400 60 H I L CNN "Rating"
@@ -511,11 +479,11 @@ X HS 3 0 -150 118 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# LED_driver:TPS61169
+# LED_driver_TPS61169
 #
-DEF LED_driver:TPS61169 U 0 40 Y Y 1 F N
+DEF LED_driver_TPS61169 U 0 40 Y Y 1 F N
 F0 "U" 400 450 60 H V C CNN
-F1 "LED_driver:TPS61169" -250 450 60 H V C CNN
+F1 "LED_driver_TPS61169" -250 450 60 H V C CNN
 F2 "SOT:TI_SC-70-5" 25 200 60 H I L CNN
 F3 "http://www.ti.com/lit/ds/symlink/tps61169.pdf" 25 300 60 H I L CNN
 F4 "NA" 25 400 60 H I L CNN "Rating"
@@ -537,11 +505,32 @@ X VIN 5 -550 250 98 R 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# Modules:BMD-300-A-R
+# LEOLED_rev1-rescue_MountigHole_M2-Mechanical
 #
-DEF Modules:BMD-300-A-R MOD 0 40 Y Y 1 F N
+DEF LEOLED_rev1-rescue_MountigHole_M2-Mechanical M 0 40 N N 1 F N
+F0 "M" 0 250 50 H V C CNN
+F1 "LEOLED_rev1-rescue_MountigHole_M2-Mechanical" 0 175 50 H V C CNN
+F2 "Mechanical:MountingHole_2.2mm_M2_ISO7380_Pad" 25 200 60 H I L CNN
+F3 "NA" 25 300 60 H I L CNN
+F4 "NA" 25 400 60 H I L CNN "Rating"
+F5 "NA" 25 500 60 H I L CNN "Tolerance"
+F6 "NA" 25 600 60 H I L CNN "Manufacturer"
+F7 "NA" 25 700 60 H I L CNN "Manufacturer PN"
+F8 "NA" 25 900 60 H I L CNN "Supplier PN"
+F9 "NA" 25 1000 60 H I L CNN "Supplier Link"
+F10 "NA" 25 1100 60 H I L CNN "Description"
+F11 "Fitted" 25 1200 60 H I L CNN "Assembly Option"
+DRAW
+C 0 50 50 0 1 50 N
+X 1 1 0 -100 100 U 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# Modules_BMD-300-A-R
+#
+DEF Modules_BMD-300-A-R MOD 0 40 Y Y 1 F N
 F0 "MOD" -550 1150 60 H V C CNN
-F1 "Modules:BMD-300-A-R" 1050 -950 60 H V C CNN
+F1 "Modules_BMD-300-A-R" 1050 -950 60 H V C CNN
 F2 "Modules:BLE_Rigado_BMD-300" 25 200 60 H I L CNN
 F3 "http://www.rigado.com/?wpdmdl=1441" 25 300 60 H I L CNN
 F4 "1.7V to 3V" 25 400 60 H I L CNN "Rating"
@@ -605,11 +594,11 @@ X P0.28 9 -800 600 200 R 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# NMOS:DMN65D8L-7
+# NMOS_DMN65D8L-7
 #
-DEF NMOS:DMN65D8L-7 Q 0 0 Y N 1 F N
+DEF NMOS_DMN65D8L-7 Q 0 0 Y N 1 F N
 F0 "Q" 200 75 50 H V L CNN
-F1 "NMOS:DMN65D8L-7" 200 0 50 H V L CNN
+F1 "NMOS_DMN65D8L-7" 200 0 50 H V L CNN
 F2 "SOT:SOT-23" 25 200 60 H I L CNN
 F3 "https://www.diodes.com/assets/Datasheets/DMN65D8L.pdf" 25 300 60 H I L CNN
 F4 "60V, 310mA" 25 400 60 H I L CNN "Rating"
@@ -646,11 +635,11 @@ X D 3 100 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Resistor_SMD_0603:0
+# Resistor_SMD_0603_0
 #
-DEF Resistor_SMD_0603:0 R 0 0 N Y 1 F N
+DEF Resistor_SMD_0603_0 R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "Resistor_SMD_0603:0" 0 0 50 V V C CNN
+F1 "Resistor_SMD_0603_0" 0 0 50 V V C CNN
 F2 "Resistor_SMD:R_0603_1608Metric" 25 200 60 H I L CNN
 F3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204&DocType=DS&DocLang=English" 25 300 60 H I L CNN
 F4 "0.1W" 25 400 60 H I L CNN "Rating"
@@ -669,11 +658,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Resistor_SMD_0603:1.2M
+# Resistor_SMD_0603_1.2M
 #
-DEF Resistor_SMD_0603:1.2M R 0 0 N Y 1 F N
+DEF Resistor_SMD_0603_1.2M R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "Resistor_SMD_0603:1.2M" 0 0 50 V V C CNN
+F1 "Resistor_SMD_0603_1.2M" 0 0 50 V V C CNN
 F2 "Resistor_SMD:R_0603_1608Metric" 25 200 60 H I L CNN
 F3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf" 25 300 60 H I L CNN
 F4 "0.1W" 25 400 60 H I L CNN "Rating"
@@ -692,11 +681,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Resistor_SMD_0603:1.8M
+# Resistor_SMD_0603_1.8M
 #
-DEF Resistor_SMD_0603:1.8M R 0 0 N Y 1 F N
+DEF Resistor_SMD_0603_1.8M R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "Resistor_SMD_0603:1.8M" 0 0 50 V V C CNN
+F1 "Resistor_SMD_0603_1.8M" 0 0 50 V V C CNN
 F2 "Resistor_SMD:R_0603_1608Metric" 25 200 60 H I L CNN
 F3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf" 25 300 60 H I L CNN
 F4 "0.1W" 25 400 60 H I L CNN "Rating"
@@ -715,11 +704,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Resistor_SMD_0603:10
+# Resistor_SMD_0603_10
 #
-DEF Resistor_SMD_0603:10 R 0 0 N Y 1 F N
+DEF Resistor_SMD_0603_10 R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "Resistor_SMD_0603:10" 0 0 50 V V C CNN
+F1 "Resistor_SMD_0603_10" 0 0 50 V V C CNN
 F2 "Resistor_SMD:R_0603_1608Metric" 25 200 60 H I L CNN
 F3 "http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-AC_51_RoHS_L_6.pdf" 25 300 60 H I L CNN
 F4 "0.1W" 25 400 60 H I L CNN "Rating"
@@ -738,11 +727,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Resistor_SMD_0603:100k
+# Resistor_SMD_0603_100k
 #
-DEF Resistor_SMD_0603:100k R 0 0 N Y 1 F N
+DEF Resistor_SMD_0603_100k R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "Resistor_SMD_0603:100k" 0 0 50 V V C CNN
+F1 "Resistor_SMD_0603_100k" 0 0 50 V V C CNN
 F2 "Resistor_SMD:R_0603_1608Metric" 25 200 60 H I L CNN
 F3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204&DocType=DS&DocLang=English" 25 300 60 H I L CNN
 F4 "0.1W" 25 400 60 H I L CNN "Rating"
@@ -761,11 +750,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Resistor_SMD_0603:180k
+# Resistor_SMD_0603_180k
 #
-DEF Resistor_SMD_0603:180k R 0 0 N Y 1 F N
+DEF Resistor_SMD_0603_180k R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "Resistor_SMD_0603:180k" 0 0 50 V V C CNN
+F1 "Resistor_SMD_0603_180k" 0 0 50 V V C CNN
 F2 "Resistor_SMD:R_0603_1608Metric" 25 200 60 H I L CNN
 F3 "http://www.vishay.com/docs/20035/dcrcwe3.pdf" 25 300 60 H I L CNN
 F4 "0.1W" 25 400 60 H I L CNN "Rating"
@@ -784,11 +773,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Resistor_SMD_0603:1M
+# Resistor_SMD_0603_1M
 #
-DEF Resistor_SMD_0603:1M R 0 0 N Y 1 F N
+DEF Resistor_SMD_0603_1M R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "Resistor_SMD_0603:1M" 0 0 50 V V C CNN
+F1 "Resistor_SMD_0603_1M" 0 0 50 V V C CNN
 F2 "Resistor_SMD:R_0603_1608Metric" 25 200 60 H I L CNN
 F3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204&DocType=DS&DocLang=English" 25 300 60 H I L CNN
 F4 "0.1W" 25 400 60 H I L CNN "Rating"
@@ -807,11 +796,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Resistor_SMD_0603:1k
+# Resistor_SMD_0603_1k
 #
-DEF Resistor_SMD_0603:1k R 0 0 N Y 1 F N
+DEF Resistor_SMD_0603_1k R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "Resistor_SMD_0603:1k" 0 0 50 V V C CNN
+F1 "Resistor_SMD_0603_1k" 0 0 50 V V C CNN
 F2 "Resistor_SMD:R_0603_1608Metric" 25 200 60 H I L CNN
 F3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204&DocType=DS&DocLang=English" 25 300 60 H I L CNN
 F4 "0.1W" 25 400 60 H I L CNN "Rating"
@@ -830,11 +819,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Resistor_SMD_0603:47k
+# Resistor_SMD_0603_47k
 #
-DEF Resistor_SMD_0603:47k R 0 0 N Y 1 F N
+DEF Resistor_SMD_0603_47k R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "Resistor_SMD_0603:47k" 0 0 50 V V C CNN
+F1 "Resistor_SMD_0603_47k" 0 0 50 V V C CNN
 F2 "Resistor_SMD:R_0603_1608Metric" 25 200 60 H I L CNN
 F3 "http://www.vishay.com/docs/28773/crcwce3.pdf" 25 300 60 H I L CNN
 F4 "0.1W" 25 400 60 H I L CNN "Rating"
@@ -853,11 +842,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Resistor_SMD_0603:5.62k
+# Resistor_SMD_0603_5.62k
 #
-DEF Resistor_SMD_0603:5.62k R 0 0 N Y 1 F N
+DEF Resistor_SMD_0603_5.62k R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "Resistor_SMD_0603:5.62k" 0 0 50 V V C CNN
+F1 "Resistor_SMD_0603_5.62k" 0 0 50 V V C CNN
 F2 "Resistor_SMD:R_0603_1608Metric" 25 200 60 H I L CNN
 F3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" 25 300 60 H I L CNN
 F4 "0.1W" 25 400 60 H I L CNN "Rating"
@@ -876,11 +865,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Resistor_SMD_0603:866
+# Resistor_SMD_0603_866
 #
-DEF Resistor_SMD_0603:866 R 0 0 N Y 1 F N
+DEF Resistor_SMD_0603_866 R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "Resistor_SMD_0603:866" 0 0 50 V V C CNN
+F1 "Resistor_SMD_0603_866" 0 0 50 V V C CNN
 F2 "Resistor_SMD:R_0603_1608Metric" 25 200 60 H I L CNN
 F3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" 25 300 60 H I L CNN
 F4 "0.1W" 25 400 60 H I L CNN "Rating"
@@ -899,11 +888,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Resistor_SMD_0805:0
+# Resistor_SMD_0805_0
 #
-DEF Resistor_SMD_0805:0 R 0 0 N Y 1 F N
+DEF Resistor_SMD_0805_0 R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "Resistor_SMD_0805:0" 0 0 50 V V C CNN
+F1 "Resistor_SMD_0805_0" 0 0 50 V V C CNN
 F2 "Resistor_SMD:R_0805_2012Metric" 25 200 60 H I L CNN
 F3 "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ6GEY0R00V+7+WW" 25 300 60 H I L CNN
 F4 "0.125W" 25 400 60 H I L CNN "Rating"
@@ -922,11 +911,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Resistor_SMD_0805:1.5
+# Resistor_SMD_0805_1.5
 #
-DEF Resistor_SMD_0805:1.5 R 0 0 N Y 1 F N
+DEF Resistor_SMD_0805_1.5 R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "Resistor_SMD_0805:1.5" 0 0 50 V V C CNN
+F1 "Resistor_SMD_0805_1.5" 0 0 50 V V C CNN
 F2 "Resistor_SMD:R_0805_2012Metric" 25 200 60 H I L CNN
 F3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf" 25 300 60 H I L CNN
 F4 "0.125W" 25 400 60 H I L CNN "Rating"
@@ -945,11 +934,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Test_Point:Test_Point
+# Test_Point_Test_Point
 #
-DEF ~Test_Point:Test_Point TP 0 0 N Y 1 F N
+DEF ~Test_Point_Test_Point TP 0 0 N Y 1 F N
 F0 "TP" 150 0 50 H V C CNN
-F1 "Test_Point:Test_Point" 200 100 50 H I C CNN
+F1 "Test_Point_Test_Point" 200 100 50 H I C CNN
 F2 "Test_Point:TestPoint_Pad_D1.5mm" 25 200 60 H I L CNN
 F3 "NA" 25 300 60 H I L CNN
 F4 "NA" 25 400 60 H I L CNN "Rating"
@@ -967,11 +956,11 @@ X ~ 1 -100 0 50 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Thermistor:100k_NTC_TH
+# Thermistor_100k_NTC_TH
 #
-DEF Thermistor:100k_NTC_TH TH 0 0 N Y 1 F N
+DEF Thermistor_100k_NTC_TH TH 0 0 N Y 1 F N
 F0 "TH" -175 0 50 V V C CNN
-F1 "Thermistor:100k_NTC_TH" 125 0 50 V V C CNN
+F1 "Thermistor_100k_NTC_TH" 125 0 50 V V C CNN
 F2 "Resistor_SMD:R_0603_1608Metric" 25 200 60 H I L CNN
 F3 "https://product.tdk.com/info/en/catalog/datasheets/503021/tpd_commercial_ntc-thermistor_ntcg_en.pdf" 25 300 60 H I L CNN
 F4 "NA" 25 400 60 H I L CNN "Rating"
@@ -1001,11 +990,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Thermistor:1M_NTC_TH
+# Thermistor_1M_NTC_TH
 #
-DEF Thermistor:1M_NTC_TH TH 0 0 N Y 1 F N
+DEF Thermistor_1M_NTC_TH TH 0 0 N Y 1 F N
 F0 "TH" -175 0 50 V V C CNN
-F1 "Thermistor:1M_NTC_TH" 125 0 50 V V C CNN
+F1 "Thermistor_1M_NTC_TH" 125 0 50 V V C CNN
 F2 "Resistor_SMD:R_0603_1608Metric" 25 200 60 H I L CNN
 F3 "https://product.tdk.com/info/en/catalog/datasheets/503021/tpd_commercial_ntc-thermistor_ntcg_en.pdf" 25 300 60 H I L CNN
 F4 "0.1W" 25 400 60 H I L CNN "Rating"
@@ -1035,11 +1024,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# USB_connector:USB_MicroB
+# USB_connector_USB_MicroB
 #
-DEF USB_connector:USB_MicroB J 0 40 Y Y 1 F N
+DEF USB_connector_USB_MicroB J 0 40 Y Y 1 F N
 F0 "J" -200 450 50 H V L CNN
-F1 "USB_connector:USB_MicroB" -200 350 50 H V L CNN
+F1 "USB_connector_USB_MicroB" -200 350 50 H V L CNN
 F2 "USB_connector:USB_Micro-B_Molex-105017-0001" 25 200 60 H I L CNN
 F3 "https://www.molex.com/pdm_docs/sd/1050170001_sd.pdf" 25 300 60 H I L CNN
 F4 "NA" 25 400 60 H I L CNN "Rating"
@@ -1076,11 +1065,11 @@ X Shield 6 -100 -400 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# power:GND
+# power_GND
 #
-DEF power:GND #PWR 0 0 Y Y 1 F P
+DEF power_GND #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "power:GND" 0 -150 50 H V C CNN
+F1 "power_GND" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -1089,11 +1078,11 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# power:GNDPWR
+# power_GNDPWR
 #
-DEF power:GNDPWR #PWR 0 0 Y Y 1 F P
+DEF power_GNDPWR #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -200 50 H I C CNN
-F1 "power:GNDPWR" 0 -130 50 H V C CNN
+F1 "power_GNDPWR" 0 -130 50 H V C CNN
 F2 "" 0 -50 50 H I C CNN
 F3 "" 0 -50 50 H I C CNN
 DRAW
@@ -1108,11 +1097,11 @@ X GNDPWR 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# power:VDD
+# power_VDD
 #
-DEF power:VDD #PWR 0 0 Y Y 1 F P
+DEF power_VDD #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power:VDD" 0 150 50 H V C CNN
+F1 "power_VDD" 0 150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
