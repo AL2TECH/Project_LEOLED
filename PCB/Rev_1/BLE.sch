@@ -535,7 +535,7 @@ F 8 "Digy-Key" H 1325 5050 60  0001 L CNN "Supplier"
 F 9 "732-5317-ND" H 1325 5150 60  0001 L CNN "Supplier PN"
 F 10 "https://www.digikey.com/product-detail/en/wurth-electronics-inc/61300411121/732-5317-ND/4846827" H 1325 5250 60  0001 L CNN "Supplier Link"
 F 11 "4 Positions Header Connector 0.100 (2.54mm) Through Hole Gold" H 1325 5350 60  0001 L CNN "Description"
-F 12 "Fitted" H 1325 5450 60  0001 L CNN "Assembly Option"
+F 12 "Not Fitted" H 1100 4550 60  0000 L CNN "Assembly Option"
 	1    1300 4250
 	-1   0    0    1   
 $EndComp

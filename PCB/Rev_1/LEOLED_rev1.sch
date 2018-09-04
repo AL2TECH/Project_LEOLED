@@ -261,7 +261,7 @@ Wire Wire Line
 	600  5450 600  5800
 Connection ~ 600  5800
 $Comp
-L LEOLED_rev1-rescue:MountigHole_M2-Mechanical M1
+L Mechanical:MountigHole_M2 M1
 U 1 1 5B6C90B9
 P 750 5350
 F 0 "M1" H 850 5401 50  0000 L CNN
@@ -281,7 +281,7 @@ F 12 "Not Fitted" H 775 6550 60  0001 L CNN "Assembly Option"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LEOLED_rev1-rescue:MountigHole_M2-Mechanical M2
+L Mechanical:MountigHole_M2 M2
 U 1 1 5B6C9153
 P 750 5700
 F 0 "M2" H 850 5751 50  0000 L CNN
@@ -301,7 +301,7 @@ F 12 "Not Fitted" H 775 6900 60  0001 L CNN "Assembly Option"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LEOLED_rev1-rescue:MountigHole_M2-Mechanical M3
+L Mechanical:MountigHole_M2 M3
 U 1 1 5B6C918D
 P 750 6100
 F 0 "M3" H 850 6151 50  0000 L CNN
@@ -321,7 +321,7 @@ F 12 "Not Fitted" H 775 7300 60  0001 L CNN "Assembly Option"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LEOLED_rev1-rescue:MountigHole_M2-Mechanical M4
+L Mechanical:MountigHole_M2 M4
 U 1 1 5B6C91C7
 P 750 6500
 F 0 "M4" H 850 6551 50  0000 L CNN
@@ -341,7 +341,7 @@ F 12 "Not Fitted" H 775 7700 60  0001 L CNN "Assembly Option"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LEOLED_rev1-rescue:MountigHole_M2-Mechanical M5
+L Mechanical:MountigHole_M2 M5
 U 1 1 5B6C9DFF
 P 750 7050
 F 0 "M5" H 850 7101 50  0000 L CNN

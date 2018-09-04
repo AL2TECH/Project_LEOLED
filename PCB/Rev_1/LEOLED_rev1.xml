@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>C:\github_repo\Project_LEOLED\PCB\Rev_1\LEOLED_rev1.sch</source>
-    <date>8/9/2018 4:13:11 PM</date>
+    <date>9/4/2018 5:27:02 PM</date>
     <tool>Eeschema (6.0.0-rc1-dev-233-g53236a383)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -142,7 +142,7 @@
         <field name="Supplier PN">NA</field>
         <field name="Tolerance">NA</field>
       </fields>
-      <libsource lib="LEOLED_rev1-rescue" part="MountigHole_M2-Mechanical" description=""/>
+      <libsource lib="Mechanical" part="MountigHole_M2" description="NA"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B6C90B9</tstamp>
     </comp>
@@ -160,7 +160,7 @@
         <field name="Supplier PN">NA</field>
         <field name="Tolerance">NA</field>
       </fields>
-      <libsource lib="LEOLED_rev1-rescue" part="MountigHole_M2-Mechanical" description=""/>
+      <libsource lib="Mechanical" part="MountigHole_M2" description="NA"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B6C9153</tstamp>
     </comp>
@@ -178,7 +178,7 @@
         <field name="Supplier PN">NA</field>
         <field name="Tolerance">NA</field>
       </fields>
-      <libsource lib="LEOLED_rev1-rescue" part="MountigHole_M2-Mechanical" description=""/>
+      <libsource lib="Mechanical" part="MountigHole_M2" description="NA"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B6C918D</tstamp>
     </comp>
@@ -196,7 +196,7 @@
         <field name="Supplier PN">NA</field>
         <field name="Tolerance">NA</field>
       </fields>
-      <libsource lib="LEOLED_rev1-rescue" part="MountigHole_M2-Mechanical" description=""/>
+      <libsource lib="Mechanical" part="MountigHole_M2" description="NA"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B6C91C7</tstamp>
     </comp>
@@ -214,7 +214,7 @@
         <field name="Supplier PN">NA</field>
         <field name="Tolerance">NA</field>
       </fields>
-      <libsource lib="LEOLED_rev1-rescue" part="MountigHole_M2-Mechanical" description=""/>
+      <libsource lib="Mechanical" part="MountigHole_M2" description="NA"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B6C9DFF</tstamp>
     </comp>
@@ -1325,7 +1325,7 @@
       <footprint>Connector_Pin_Header:Pin_Header_Straight_1x04_Pitch2.54mm</footprint>
       <datasheet>http://katalog.we-online.de/em/datasheet/6130xx11121.pdf</datasheet>
       <fields>
-        <field name="Assembly Option">Fitted</field>
+        <field name="Assembly Option">Not Fitted</field>
         <field name="Description">4 Positions Header Connector 0.100 (2.54mm) Through Hole Gold</field>
         <field name="Manufacturer">Wurth Electronics Inc.</field>
         <field name="Manufacturer PN">61300411121</field>
@@ -2362,10 +2362,11 @@
         <pin num="5" name="VIN" type="power_in"/>
       </pins>
     </libpart>
-    <libpart lib="LEOLED_rev1-rescue" part="MountigHole_M2-Mechanical">
+    <libpart lib="Mechanical" part="MountigHole_M2">
+      <description>NA</description>
       <fields>
         <field name="Reference">M</field>
-        <field name="Value">MountigHole_M2-Mechanical</field>
+        <field name="Value">MountigHole_M2</field>
         <field name="Footprint">Mechanical:MountingHole_2.2mm_M2_ISO7380_Pad</field>
         <field name="Datasheet">NA</field>
         <field name="Rating">NA</field>
@@ -2375,7 +2376,7 @@
         <field name="Supplier PN">NA</field>
         <field name="Supplier Link">NA</field>
         <field name="Description">NA</field>
-        <field name="Assembly Option">Fitted</field>
+        <field name="Assembly Option">Not Fitted</field>
       </fields>
       <pins>
         <pin num="1" name="1" type="input"/>
@@ -2886,8 +2887,8 @@
     <library logical="LED_driver">
       <uri>C:\github_repo\Utilities\KiCad\KiCad_Libraries\symbols/LED_driver.lib</uri>
     </library>
-    <library logical="LEOLED_rev1-rescue">
-      <uri>C:\github_repo\Project_LEOLED\PCB\Rev_1/LEOLED_rev1-rescue.lib</uri>
+    <library logical="Mechanical">
+      <uri>C:\github_repo\Utilities\KiCad\KiCad_Libraries\symbols/Mechanical.lib</uri>
     </library>
     <library logical="Modules">
       <uri>C:\github_repo\Utilities\KiCad\KiCad_Libraries\symbols/Modules.lib</uri>
