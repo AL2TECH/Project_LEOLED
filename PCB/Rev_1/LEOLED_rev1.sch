@@ -5,10 +5,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 5
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "LEOLED"
+Date "2018-10-19"
+Rev "1"
+Comp "AL2TECH"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -371,10 +371,10 @@ Wire Wire Line
 	600  6200 600  6300
 Connection ~ 600  6200
 $Comp
-L power:GNDPWR #PWR?
+L power:GNDPWR #PWR0101
 U 1 1 5B6CE3DA
 P 600 7400
-F 0 "#PWR?" H 600 7200 50  0001 C CNN
+F 0 "#PWR0101" H 600 7200 50  0001 C CNN
 F 1 "GNDPWR" H 650 7250 50  0000 C CNN
 F 2 "" H 600 7350 50  0001 C CNN
 F 3 "" H 600 7350 50  0001 C CNN

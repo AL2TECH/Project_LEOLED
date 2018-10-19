@@ -1,4 +1,4 @@
-update=8/9/2018 3:53:03 PM
+update=10/19/2018 4:58:34 PM
 version=1
 last_client=kicad
 [general]
@@ -11,16 +11,6 @@ NetIExt=net
 [eeschema]
 version=1
 LibDir=
-[schematic_editor]
-version=1
-PageLayoutDescrFile=C:/github_repo/Utilities/KiCad/KiCad_Libraries/page_layout/al2tech.kicad_wks
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceAjustPassiveValues=0
-LabSize=50
-ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=C:/github_repo/Utilities/KiCad/KiCad_Libraries/page_layout/al2tech.kicad_wks
@@ -69,6 +59,13 @@ SolderMaskClearance=0
 SolderMaskMinWidth=0
 SolderPasteClearance=0
 SolderPasteRatio=-0
-[pcbnew/Layer.B.Cu]
-Name=B.Cu
-Type=3
+[schematic_editor]
+version=1
+PageLayoutDescrFile=C:/github_repo/Utilities/KiCad/KiCad_Libraries/page_layout/al2tech.kicad_wks
+PlotDirectoryName=Outputs/PDF/
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceAjustPassiveValues=0
+LabSize=50
+ERC_TestSimilarLabels=1
