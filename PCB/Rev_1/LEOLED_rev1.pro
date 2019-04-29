@@ -1,4 +1,4 @@
-update=10/19/2018 4:58:34 PM
+update=10/22/2018 11:08:22 AM
 version=1
 last_client=kicad
 [general]
@@ -11,10 +11,20 @@ NetIExt=net
 [eeschema]
 version=1
 LibDir=
+[schematic_editor]
+version=1
+PageLayoutDescrFile=C:/github_repo/Utilities/KiCad/KiCad_Libraries/page_layout/al2tech.kicad_wks
+PlotDirectoryName=Outputs/PDF/
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceAjustPassiveValues=0
+LabSize=50
+ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=C:/github_repo/Utilities/KiCad/KiCad_Libraries/page_layout/al2tech.kicad_wks
-LastNetListRead=
+LastNetListRead=LEOLED_rev1.net
 CopperLayerCount=2
 BoardThickness=1.6
 AllowMicroVias=0
@@ -58,14 +68,4 @@ OthersTextUpright=1
 SolderMaskClearance=0
 SolderMaskMinWidth=0
 SolderPasteClearance=0
-SolderPasteRatio=-0
-[schematic_editor]
-version=1
-PageLayoutDescrFile=C:/github_repo/Utilities/KiCad/KiCad_Libraries/page_layout/al2tech.kicad_wks
-PlotDirectoryName=Outputs/PDF/
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceAjustPassiveValues=0
-LabSize=50
-ERC_TestSimilarLabels=1
+SolderPasteRatio=0

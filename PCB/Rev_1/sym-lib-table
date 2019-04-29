@@ -1,3 +1,0 @@
-(sym_lib_table
-  (lib (name LEOLED_rev1-rescue)(type Legacy)(uri ${KIPRJMOD}/LEOLED_rev1-rescue.lib)(options "")(descr ""))
-)

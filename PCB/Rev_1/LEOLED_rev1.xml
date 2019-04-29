@@ -2,14 +2,14 @@
 <export version="D">
   <design>
     <source>C:\github_repo\Project_LEOLED\PCB\Rev_1\LEOLED_rev1.sch</source>
-    <date>9/4/2018 5:27:02 PM</date>
+    <date>10/22/2018 9:47:25 AM</date>
     <tool>Eeschema (6.0.0-rc1-dev-233-g53236a383)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
-        <title/>
-        <company/>
-        <rev/>
-        <date/>
+        <title>LEOLED</title>
+        <company>AL2TECH</company>
+        <rev>1</rev>
+        <date>2018-10-19</date>
         <source>LEOLED_rev1.sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -19,10 +19,10 @@
     </sheet>
     <sheet number="2" name="/Power/" tstamps="/5AFAEAC8/">
       <title_block>
-        <title/>
-        <company/>
-        <rev/>
-        <date/>
+        <title>LEOLED</title>
+        <company>AL2TECH</company>
+        <rev>1</rev>
+        <date>2018-10-19</date>
         <source>Power.sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -32,10 +32,10 @@
     </sheet>
     <sheet number="3" name="/BLE/" tstamps="/5AFCA20B/">
       <title_block>
-        <title/>
-        <company/>
-        <rev/>
-        <date/>
+        <title>LEOLED</title>
+        <company>AL2TECH</company>
+        <rev>1</rev>
+        <date>2018-10-19</date>
         <source>BLE.sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -45,10 +45,10 @@
     </sheet>
     <sheet number="4" name="/LED/" tstamps="/5B040FB0/">
       <title_block>
-        <title/>
-        <company/>
-        <rev/>
-        <date/>
+        <title>LEOLED</title>
+        <company>AL2TECH</company>
+        <rev>1</rev>
+        <date>2018-10-19</date>
         <source>LED.sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -58,10 +58,10 @@
     </sheet>
     <sheet number="5" name="/LED_Driver/" tstamps="/5B0452BC/">
       <title_block>
-        <title/>
-        <company/>
-        <rev/>
-        <date/>
+        <title>LEOLED</title>
+        <company>AL2TECH</company>
+        <rev>1</rev>
+        <date>2018-10-19</date>
         <source>LED_Driver.sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -641,7 +641,7 @@
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>https://product.tdk.com/info/en/catalog/datasheets/503021/tpd_commercial_ntc-thermistor_ntcg_en.pdf</datasheet>
       <fields>
-        <field name="Assembly Option">Fitted</field>
+        <field name="Assembly Option">Not Fitted</field>
         <field name="Description">NTC Thermistor 100k 0603 (1608 Metric)</field>
         <field name="Manufacturer">TDK Corporation</field>
         <field name="Manufacturer PN">NTCG164KF104FT1</field>
@@ -1439,7 +1439,7 @@
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <datasheet>http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ6GEY0R00V+7+WW</datasheet>
       <fields>
-        <field name="Assembly Option">Fitted</field>
+        <field name="Assembly Option">Not Fitted</field>
         <field name="Description">0 Ohms Jumper 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thick Film</field>
         <field name="Manufacturer">Panasonic Electronic Component</field>
         <field name="Manufacturer PN">ERJ-6GEY0R00V</field>
@@ -1458,7 +1458,7 @@
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <datasheet>http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ6GEY0R00V+7+WW</datasheet>
       <fields>
-        <field name="Assembly Option">Fitted</field>
+        <field name="Assembly Option">Not Fitted</field>
         <field name="Description">0 Ohms Jumper 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thick Film</field>
         <field name="Manufacturer">Panasonic Electronic Component</field>
         <field name="Manufacturer PN">ERJ-6GEY0R00V</field>

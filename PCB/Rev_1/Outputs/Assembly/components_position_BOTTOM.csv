@@ -1,4 +1,4 @@
 "Reference","Package","X Position (mm)","Y Position (mm)","Rotation (Degrees)","Side"
-"R27","SMD","70.9886","24.6728","-0.0","bottom"
-"R28","SMD","70.8886","35.8728","-0.0","bottom"
+"R27","SMD","70.9886","24.6728","0.0","bottom"
+"R28","SMD","70.8886","35.8728","0.0","bottom"
 "TH1","SMD","5.2886","29.4728","90.0","bottom"

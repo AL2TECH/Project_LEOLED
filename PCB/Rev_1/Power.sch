@@ -755,7 +755,7 @@ F 8 "Digy-Key" H 8925 5500 60  0001 L CNN "Supplier"
 F 9 "445-2556-1-ND" H 8925 5600 60  0001 L CNN "Supplier PN"
 F 10 "https://www.digikey.com/product-detail/en/tdk-corporation/NTCG164KF104FT1/445-2556-1-ND/934255" H 8925 5700 60  0001 L CNN "Supplier Link"
 F 11 "NTC Thermistor 100k 0603 (1608 Metric)" H 8925 5800 60  0001 L CNN "Description"
-F 12 "Fitted" H 8925 5900 60  0001 L CNN "Assembly Option"
+F 12 "Not Fitted" H 8400 4900 60  0000 L CNN "Assembly Option"
 	1    8900 4700
 	1    0    0    -1  
 $EndComp

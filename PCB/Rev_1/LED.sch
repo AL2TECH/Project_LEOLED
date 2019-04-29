@@ -140,7 +140,7 @@ F 8 "Digy-Key" H 6625 2550 60  0001 L CNN "Supplier"
 F 9 "P0.0ACT-ND" H 6625 2650 60  0001 L CNN "Supplier PN"
 F 10 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-6GEY0R00V/P0.0ACT-ND/82955" H 6625 2750 60  0001 L CNN "Supplier Link"
 F 11 "0 Ohms Jumper 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thick Film" H 6625 2850 60  0001 L CNN "Description"
-F 12 "Fitted" H 6625 2950 60  0001 L CNN "Assembly Option"
+F 12 "Not Fitted" V 6750 1650 60  0000 L CNN "Assembly Option"
 	1    6600 1750
 	0    1    1    0   
 $EndComp
@@ -160,7 +160,7 @@ F 8 "Digy-Key" H 6675 4400 60  0001 L CNN "Supplier"
 F 9 "P0.0ACT-ND" H 6675 4500 60  0001 L CNN "Supplier PN"
 F 10 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-6GEY0R00V/P0.0ACT-ND/82955" H 6675 4600 60  0001 L CNN "Supplier Link"
 F 11 "0 Ohms Jumper 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thick Film" H 6675 4700 60  0001 L CNN "Description"
-F 12 "Fitted" H 6675 4800 60  0001 L CNN "Assembly Option"
+F 12 "Not Fitted" V 6800 3550 60  0000 L CNN "Assembly Option"
 	1    6650 3600
 	0    1    1    0   
 $EndComp
